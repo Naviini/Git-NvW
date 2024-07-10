@@ -11,6 +11,8 @@ body {
 
 nav {
     padding: 1%;
+    margin-right: 20px;
+    margin-top: -10px;
 }
 
 nav li {
@@ -18,6 +20,8 @@ nav li {
     display: inline;
     float: right;
     padding: 1% 1% 0 0;
+    cursor: pointer;
+    font-size: 20px;
     /* background-color: aliceblue; */
 }
 
@@ -25,19 +29,35 @@ nav li {
     position: relative;
     background-color: #80cfec;
     height: 600px;
-    border-bottom-left-radius: 2em;
+    border-bottom-left-radius: 10em;
 }
 
 #bottom-corner {
     background-color: #eccc80;
     color: #eccc80;
     display: block;
-    height: 30px;
-    width: 30px;
+    height: 200px;
+    width: 200px;
     z-index: -1;
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.but1{
+    border: none;
+    border-radius: 20px;
+    background-color: #1e7a9c5c;
+    width: 350px;
+    height: 120px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.a1{
+    color: #0b3e51d0;
+    
 }
 
 #top h1 {
@@ -53,7 +73,7 @@ nav li {
     position: relative;
     height: 600px;
     background-color: #eccc80;
-    border-top-right-radius: 2em;
+    border-top-right-radius: 10em;
 }
 
 
@@ -61,8 +81,8 @@ nav li {
     background-color: #80cfec;
     color: #80cfec;
     display: block;
-    height: 30px;
-    width: 30px;
+    height: 200px;
+    width: 200px;
     z-index: -1;
     position: absolute;
     top: 0;
